@@ -2,3 +2,7 @@
 List<String> list_Str = new ArrayList<>();
 		list_Str.add("Apple");
 //add element in a position not replace but move forward that eleemnt  list_Str.add(0,"Plumnn");
+//remove element in i=5  if u use for set()    for (int j = count; j < list_Str.size() - 1; j++) {
+                list_Str.set(j, list_Str.get(j + 1)); // Use set method to update list
+            }   but we have to delete the lasht ele too list_Str.remove(list_Str.size() - 1); 
+//u cant use list_Str.get(j)=list_Str.get(j+1); assign values directly cause we have get()
