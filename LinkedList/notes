@@ -17,3 +17,6 @@ LinkedList <String> book_list = new LinkedList <String> ();
  //to compare or check if empty same way as arraylist
 //to replace use set  
 //remove or pop for firset ele
+
+
+//nodes part
