@@ -20,3 +20,8 @@ List<String> list_Str = new ArrayList<>();
 	         list_Book.set(j , list_Book.get(i));
 	         j++;
 	     }
+//contains()
+//swap elements  String k=list_Book1.get(0);
+	       list_Book1.set( 0   ,list_Book1.get(2));
+	         list_Book1.set(2, k);
+
