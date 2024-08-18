@@ -12,3 +12,8 @@ LinkedList <String> book_list = new LinkedList <String> ();
 //iterator Iterator b = book_list.listIterator(3);
 		while (b.hasNext())
 		{
+//if element exsist contains("Cherry"))
+//convert to arraymist 	List<String> array_list = new ArrayList<String>(linked_list);
+ //to compare or check if empty same way as arraylist
+//to replace use set  
+//remove or pop for firset ele
