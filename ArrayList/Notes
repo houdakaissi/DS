@@ -16,3 +16,7 @@ List<String> list_Str = new ArrayList<>();
                 }
             }
         }   //u can add size of   ArrayList<String> list_Book= new ArrayList<String>(3);   normal
+//reverse   for(int i=list_Book.size()-1;i>=0;i--){
+	         list_Book.set(j , list_Book.get(i));
+	         j++;
+	     }
