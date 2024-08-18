@@ -24,4 +24,4 @@ List<String> list_Str = new ArrayList<>();
 //swap elements  String k=list_Book1.get(0);
 	       list_Book1.set( 0   ,list_Book1.get(2));
 	         list_Book1.set(2, k);
-
+//subList(0,2  isEmpty())
