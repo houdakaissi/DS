@@ -1,7 +1,14 @@
-
+//same as l	rraylist
 LinkedList <String> book_list = new LinkedList <String> ();
 		book_list.add("Java");
 //add elenent in pos move rest add(i,"ggg  //to show elements or (String b : book_list)
 		{
 			System.out.println(b);
 		} 
+//reverse    int j=0;
+	        for(int i=list_Book1.size()-1;i>=0;i--){
+	         list_Book.add(j , list_Book1.get(i));
+	         j++;
+//iterator Iterator b = book_list.listIterator(3);
+		while (b.hasNext())
+		{
