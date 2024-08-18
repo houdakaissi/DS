@@ -6,3 +6,13 @@ List<String> list_Str = new ArrayList<>();
                 list_Str.set(j, list_Str.get(j + 1)); // Use set method to update list
             }   but we have to delete the lasht ele too list_Str.remove(list_Str.size() - 1); 
 //u cant use list_Str.get(j)=list_Str.get(j+1); assign values directly cause we have get()
+//sort arraylist  for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n -1; j++) {
+                if (list_Str.get(j).compareTo(list_Str.get(j + 1)) > 0) {
+                    // Swap list_Str.get(j) and list_Str.get(j + 1)
+                    String temp = list_Str.get(j);
+                    list_Str.set(j, list_Str.get(j + 1));
+                    list_Str.set(j + 1, temp);
+                }
+            }
+        }   //u can add size of   ArrayList<String> list_Book= new ArrayList<String>(3);   normal
