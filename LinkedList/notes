@@ -1,1 +1,7 @@
 
+LinkedList <String> book_list = new LinkedList <String> ();
+		book_list.add("Java");
+//add elenent in pos move rest add(i,"ggg  //to show elements or (String b : book_list)
+		{
+			System.out.println(b);
+		} 
