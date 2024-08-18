@@ -1,0 +1,4 @@
+//Add elements to arraylist
+List<String> list_Str = new ArrayList<>();
+		list_Str.add("Apple");
+//add element in a position not replace but move forward that eleemnt  list_Str.add(0,"Plumnn");
