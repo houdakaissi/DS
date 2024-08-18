@@ -33,4 +33,5 @@ List<String> list_Str = new ArrayList<>();
 	            j--;
 	        }
 
+//convert list to aarra Object[] arr = fru_list.toArray();
 
