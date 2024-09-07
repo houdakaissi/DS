@@ -66,3 +66,18 @@ public class Main
 		s.print();
 	}
 }
+//middle of singly   int mid=count/2;
+        int k=0;
+       c = head; // Reset the pointer to the head of the list
+   
+    while (c!=null) {
+        if(k==mid){
+            
+        
+          System.out.println("The middle element is: " + c.Data);
+          break;
+    }
+        c = c.next;
+        k++;
+       
+    }
