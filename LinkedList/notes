@@ -81,3 +81,10 @@ public class Main
         k++;
        
     }
+//delete all list 	void deleteList()
+	{
+		head = null;
+	}	void deleteList()
+	{
+		head = null;
+	}
