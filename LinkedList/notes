@@ -19,4 +19,50 @@ LinkedList <String> book_list = new LinkedList <String> ();
 //remove or pop for firset ele
 
 
-//nodes part
+///////////////////////nodes part
+//add nodes and print
+class Node {
+    int Data;
+    Node next;
+    Node(int Data){
+        this.Data=Data;
+        this.next=null;
+    }
+}
+class single{
+    Node head;
+    single(){
+        this.head=null;
+    }
+    void append(int data){
+         Node n=new Node(data);
+        if(head==null){
+           
+            head=n;
+        }
+        else{
+            Node current=head;
+            if(current.next!=null){
+                current =current.next;
+            }
+            current.next=n;
+        }
+        
+    }
+    void print(){
+        Node c=head;
+        while(c!=null){
+            System.out.println(c.Data);
+            c=c.next;
+        }
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		single s=new single();
+		s.append(1);
+		s.append(2);
+		s.print();
+	}
+}
