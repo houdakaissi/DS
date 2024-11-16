@@ -46,3 +46,4 @@ List<String> list_Str = new ArrayList<>();
 	//extract part of list
 	List<String> sub_List = l.subList(0, 3);
 
+----->add set remove compareTo size sublist isEmpty contains sort copy reverse 
