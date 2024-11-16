@@ -6,6 +6,8 @@ List<String> list_Str = new ArrayList<>();
                 list_Str.set(j, list_Str.get(j + 1)); // Use set method to update list
             }   but we have to delete the lasht ele too list_Str.remove(list_Str.size() - 1); 
 //u cant use list_Str.get(j)=list_Str.get(j+1); assign values directly cause we have get()
+ //remove ele in a pos
+     l.remove(0); 
 //sort arraylist  for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n -1; j++) {
                 if (list_Str.get(j).compareTo(list_Str.get(j + 1)) > 0) {
@@ -34,4 +36,13 @@ List<String> list_Str = new ArrayList<>();
 	        }
 
 //convert list to aarra Object[] arr = fru_list.toArray();
+ //sort 
+     Collections.sort(l);
+     
+     //copy l to l1
+     Collections.copy(l, l1);
+     //reverse elements
+     Collections.reverse(l);
+	//extract part of list
+	List<String> sub_List = l.subList(0, 3);
 
