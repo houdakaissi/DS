@@ -16,9 +16,12 @@ LinkedList <String> book_list = new LinkedList <String> ();
 //convert to arraymist 	List<String> array_list = new ArrayList<String>(linked_list);
  //to compare or check if empty same way as arraylist
 //to replace use set  
-//remove or pop for firset ele
-
-
+//remove in pos remove 
+ //remove all clear() 
+//remove first or last
+	   l.removeFirst();  l.removeLast();
+//get the first ele peekFirst();or last peekLast 
+---->add reverse contains toaaray isempty remove set clear removeLast() remove first peekfirst peeklast 
 ///////////////////////nodes part
 //add nodes and print
 class Node {
