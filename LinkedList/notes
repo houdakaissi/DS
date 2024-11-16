@@ -21,7 +21,7 @@ LinkedList <String> book_list = new LinkedList <String> ();
 //remove first or last
 	   l.removeFirst();  l.removeLast();
 //get the first ele peekFirst();or last peekLast 
----->add reverse contains toaaray isempty remove set clear removeLast() remove first peekfirst peeklast 
+---->add reverse contains toaaray isempty remove set clear removeLast() remove first peekfirst peeklast sort
 ///////////////////////nodes part
 //add nodes and print
 class Node {
