@@ -1,13 +1,34 @@
+Set<String> t = new TreeSet<String>();
+  t.add("Red");
+ Iterator<String> i = t.iterator();  // Get an iterator for the collection t
+while(i.hasNext()) {  // Check if there's another element
+    System.out.println(i.next());  // Print the next element
+    
+}
+ TreeSet<String> tree_set2 = new TreeSet<String>();
+  tree_set2.add("Pink");
+  tree_set2.add("White");
+  tree_set2.add("Black");
+  System.out.println("Tree set2: "+tree_set2);
+   // adding treetwo to treeone
+   t.addAll(tree_set2);
+  
+      System.out.println("Tree set2: "+t);
+      //last first 
+      //clone  TreeSet<String> new_t_set = (TreeSet<String>)t_set.clone();
+      //size 
+      //Comparable for (String element : t_set1){
+             System.out.println(t_set2.contains(element) ? "Yes" : "No");
+          }   
+          // less or = floor  more or = ceiling 
+          //greater lower no =
+          //retrive and delete first pollFirst()
+          //retrive delete last pollLast(
+          //remove(value)
+ 
+---->size empty first last pollfirst pooolastcontains floor ceiling lower higher removeclear clone removeAll 
 
-//add elements 
-.add()   //size of treeset .size()    //remove element  .remove(element)   //5
-//find max 	TreeSet<Integer> t=new TreeSet<>();
-	t.add(1);
-	t.add(2);
-	int max=0;
-	Iterator<Integer> i=t.iterator();
-	while(i.hasNext()){
-	    if(max<i.next()){
-	        max=i.next();
-	    }
-	}   //isEmpty    //iterator in treeset show elements in acsending order
+          
+   
+	
+	
