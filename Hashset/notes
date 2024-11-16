@@ -1,1 +1,23 @@
 
+we can use Set<String> h_set = new HashSet<String>();or HashSet<String> h_set = new HashSet<String>();
+By using Set<String>, you can easily change the HashSet to a TreeSet without changing the type of the variable
+---->cause hashset change position no orderr
+//add elment 
+	Set<String> h = new HashSet<String>();
+	    h.add("ggg");
+//iterator
+  Iterator<String> i= h.iterator();
+   while(i.hasNext()){
+       System.out.println(i.next());
+   }
+//size .size delete all  h.removeAll(h); 
+//clone()  clear()
+//remove   remove(value)
+//compare  for (String element : h){
+             System.out.println(h2.contains(element) ? "Yes" : "No");
+          } 
+cant use compareTo cause positions change 
+//convert to array and treeset      String[] new_array = h.toArray(new String[0]);
+       Set<String> tree_set = new TreeSet<String>(h);
+
+---->add size removeAll clone clear remove contains toArray remove 
