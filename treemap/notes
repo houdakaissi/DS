@@ -1,0 +1,31 @@
+ 
+import java.util.*;  
+import java.util.Map;
+public class Main
+{
+// TreeMap is an implementation of the SortedMap 
+ TreeMap<Integer,String> tree_map=new TreeMap<Integer,String>();      
+  // Put elements to the map 
+  tree_map.put(1, "Red");
+   for (Map.Entry<Integer,String> entry : tree_map.entrySet())
+   {
+    System.out.println(entry.getKey() + "=>" + entry.getValue());
+   }
+   //copy tree_map1.putAll(tree_map2)
+   //see if it has a velue or key containsValue
+   //to get all keys in set et<String> keys = tree_map1.keySet();  to get values .values 
+   //IncompatibleClassChangeError//
+   //sort keys 
+   class sort_key implements Comparator<String>{
+     @Override
+    public int compare(String str1, String str2) {
+        return str1.compareTo(str2);
+    }
+   //firstKey() lastkey 
+   //reverse order of keys tree_map1.descendingKeySet()
+   //get keys higher 31 headMap(30)
+   // remove and get a key-value of first key ee_map.pollFirstEntry() last pollLastEntry()
+   //portion wherekeys tree_map.subMap(20, 40);
+   //portion if key greater tree_map.tailMap(20
+   //
+----->put entryset putall contaisvalue keyset comparator first lastkey descendingKeySet higherKey headMap pollFirstEntry subMap tailMap
